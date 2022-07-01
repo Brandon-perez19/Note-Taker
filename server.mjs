@@ -1,7 +1,7 @@
 import express from 'express';
 import apiRoutes from './routes/apiRoutes/index.js';
 import htmlRoutes from './routes/htmlRoutes/index.js'
-const PORT = process.env.Port || 3001;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
